@@ -11,7 +11,7 @@
 jQuery && jQuery(document).ready(() => {
     var $ = jQuery, body = $('body');
     const options = {
-        authorCta: body.attr('data-author-cta') ?? 'https://discord.gg/27yed8q2ehy8',
+        authorCta: body.attr('data-author-cta') ?? 'mailto:jainilsoni1706@gmail.com',
         authorName: body.attr('data-author-name') ?? 'Jainil Soni',
         githubUrl: body.attr('data-author-url') ?? 'https://github.com/jainilsoni1706/',
         startYear: 2020,
